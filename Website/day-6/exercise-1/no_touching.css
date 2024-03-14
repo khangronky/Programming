@@ -1,0 +1,16 @@
+#board {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}

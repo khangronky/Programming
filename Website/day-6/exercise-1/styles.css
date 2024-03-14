@@ -1,0 +1,15 @@
+.row:nth-child(odd) .square:nth-child(odd) {
+    background-color: #eeeed2;
+}
+
+.row:nth-child(odd) .square:nth-child(even) {
+    background-color: #769656;
+}
+
+.row:nth-child(even) .square:nth-child(odd) {
+    background-color: #769656;
+}
+
+.row:nth-child(even) .square:nth-child(even) {
+    background-color: #eeeed2;
+}

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    min-height: 10vh;
+    background-color: #80cbc4;
+    padding: 10px;
+}
+
+main {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    width: 15%;
+    background-color: #ffab00;
+    padding: 10px;
+}
+
+article {
+    width: 50%;
+    background-color: #ffd54f;
+    padding: 10px;
+}
+
+aside {
+    width: 35%;
+    background-color: #fff276;
+    padding: 10px;
+}
+
+footer {
+    min-height: 10vh;
+    background-color: #27a69a;
+    padding: 10px;
+}

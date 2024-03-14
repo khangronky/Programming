@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Klee One', cursive;
+    font-weight: 600;
+    text-align: center;
+    background: linear-gradient(225deg, #e61e2a, #000054);
+    min-height: 100vh;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-title {
+    color: #ece147;
+    font-size: 2.5rem;
+    margin: 40px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 30%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 100px 20px rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 30px auto;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover .content {
+    max-height: 1000px;
+}
+
+.avatar {
+    width: 200px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 2.5rem;
+    color: #57b40b;
+    margin: 10px 0;
+    text-shadow: 0 0 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.name:hover {
+    transform: scale(1.1);
+}
+
+.job {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.first-desc {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.second-desc {
+    font-size: 1.2rem;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.contact {
+    position: relative;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.method {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.alt-method {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+.icon {
+    width: 60px;
+}
+
+.link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    display: none;
+}
+
+.extender:hover {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extender:hover .info {
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+}
