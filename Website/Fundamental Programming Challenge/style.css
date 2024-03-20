@@ -1,0 +1,175 @@
+/*
+RMIT University Vietnam
+Course: COSC3058 Web Programming Bootcamp
+Semester: 2024A
+Assessment: Fundamental Programming Challenge
+Author: Nguyen Gia Khang
+ID: s4034066
+Acknowledgement: Acknowledge the resources that you use here.
+*/
+
+/* ------------------------- */
+/* YOUR CSS WORK STARTS HERE */
+/* ------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+#gallery {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 20px 200px;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.title {
+    text-align: right;
+}
+
+.title span {
+    color: red;
+}
+
+.main {
+    display: flex;
+}
+
+.profile {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.profile img {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.hi {
+    text-align: left;
+}
+
+.profile h1 span {
+    color: #1a73e8;
+}
+
+.it {
+    text-align: right;
+}
+
+.italic {
+    font-style: italic;
+    text-align: left;
+}
+
+.album {
+    width: 75%;
+    padding: 20px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    border: 2px solid black;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.container .more {
+    text-align: right;
+    font-style: italic; 
+    margin-bottom: 10px;
+}
+
+.container a {
+    color: #1a73e8;
+}
+
+.ctnr1 {
+    grid-area: ctnr1;
+    width: 100%;
+}
+
+.ctnr2 {
+    grid-area: ctnr2;
+    width: calc(100%/3);
+}
+
+.ctnr3 {
+    grid-area: ctnr3;
+    width: calc(100%/3);
+}
+
+.ctnr4 {
+    grid-area: ctnr4;
+    width: calc(100%/3);
+}
+
+.ctnr5 {
+    grid-area: ctnr5;
+    width: 50%;
+}
+
+.ctnr6 {
+    grid-area: ctnr6;
+    width: 50%;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer span {
+    font-weight: bold;      
+}
+
+
+/* Apply for devices whose width is less than 768px */
+@media screen and (max-width: 767px) {
+    .title {
+        text-align: center;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .profile {
+        width: 100%;
+        border: none;
+    }
+
+    .hi, .it, .italic {
+        text-align: center;
+    }
+
+    .album {
+        width: 100%;
+        border: none;
+
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .container img {
+        height: 200px;
+    }
+}
